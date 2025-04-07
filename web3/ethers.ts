@@ -88,30 +88,30 @@ export const setPositiveNumber = async (_positive: number) => {
 
 export const setNegativeNumber = async (_negative: number) => {
   // Todo: setNegativeNumber 함수의 인자를 사용해 컨트랙트의 setNegativeNumber를 실행시켜 리턴해야 합니다.
-  return await getContract().setNegativeNumber(_negative);
+  return;
 };
 
 export const toggleActive = async () => {
   // Todo: 컨트랙트의 toggleActive를 실행시켜 리턴해야 합니다.
-  return await getContract().toggleActive();
+  return;
 };
 
 export const setState = async (_newState: number) => {
   // Todo: setState 함수의 인자를 사용해 컨트랙트의 setState를 실행시켜 리턴해야 합니다.
-  return await getContract().setState(_newState);
+  return;
 };
 
 export const setWallet = async (address: string) => {
   // Todo: setWallet 함수의 인자를 사용해 컨트랙트의 setWallet을 실행시켜 리턴해야 합니다.
-  return await getContract().setWallet(address);
+  return;
 };
 
 export const setFixedData = async (_newFixedData: string) => {
   // Todo: setFixedData 함수의 인자를 사용해 컨트랙트의 setFixedData을 실행시켜 리턴해야 합니다.
-  return await getContract().setFixedData(_newFixedData);
+  return;
 };
 
 export const setDynamicData = async (_newDynamicData: string) => {
   // Todo: setDynamicData 함수의 인자를 사용해 컨트랙트의 setDynamicData을 실행시켜 리턴해야 합니다.
-  return await getContract().setDynamicData(_newDynamicData);
+  return;
 };
